@@ -1,0 +1,114 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	padding: 0;
+	margin: 0;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+	background: rgb(35, 53, 111);
+	background: linear-gradient(180deg, rgba(35, 53, 111, 1) 0%,
+		rgba(24, 41, 102, 1) 50%, rgba(64, 106, 154, 1) 100%,
+		rgba(0, 212, 255, 1) 100%);
+	width: 100%- 20px;
+	color: white;
+	height: 50px;
+	font-size: 2.5em;
+	padding: 10px;
+	background: linear-gradient(180deg, rgba(35, 53, 111, 1) 0%,
+		rgba(24, 41, 102, 1) 50%, rgba(64, 106, 154, 1) 100%,
+		rgba(0, 212, 255, 1) 100%);
+}
+
+section {
+	padding: 20px;
+	font-size: 14px;
+	width: 550px;
+}
+
+h3.title {
+	color: #195285;
+	text-transform: uppercase;
+	margin-top: 0px;
+	text-transform: uppercase;
+}
+
+form {
+	padding: 5px;
+	margin: auto;
+}
+
+.contact-information label {
+	display: inline-block;
+	width: 50px;
+	text-align: right;
+}
+
+fieldset {
+	border-radius: 8px;
+	margin: 10px 0px;
+}
+
+fieldset legend {
+	font-weight: bold;
+}
+
+input[type=submit] {
+	border-radius: 8px;
+	cursor: pointer;
+}
+
+p>span {
+	font-weight: bold;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+tr {
+	height: 20px;
+}
+
+td, th {
+	font-size: 14px;
+	padding: 2px;
+}
+
+th {
+	border-bottom: 1px solid black;
+}
+
+.footer-menu {
+	display: inline-flex;
+	margin-top: 15px;
+}
+
+.redBtn {
+	color: white;
+	background: red;
+}
+
+.greenBtn {
+	color: white;
+	background: green;
+}
+
+#errorMessages {
+	color: red;
+	font-style: italic;
+	margin: 10px 0px;
+}
+
+.container {
+	margin: 10px auto;
+}
+
+.one {
+	width: 140px;
+	float: left;
+}
+
+.two {
+	
+}
